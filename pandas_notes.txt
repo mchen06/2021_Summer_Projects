@@ -1,0 +1,46 @@
+import pandas as pd
+imports pandas
+
+print(csv_file.shape)
+-prints (# of rows, # of colmns)
+
+csv_file.head(number)
+-prints first few columns if there is a number prints that number of columns
+
+csv.tail(number)
+-same as head but the end if there is a number prints that number of columns
+
+pd.set.option("display.max.columns", none)
+-no max  number of decemal places
+
+pd.set.option("display.max.columns", 1)
+-max number of decemal places is one
+
+csv_file.info()
+-prints information about dataset
+
+csv_file.describe()
+-looks at every column and gives statistics abt it
+
+csv_file.describe(inculde = object)
+-gives different information
+
+list(csv_file["key"]
+-makes spesific key into a list
+
+csv_file.columns
+-prints column names
+
+csv_file["column"]
+-prints column
+
+csv_file[number:number]
+-slices files
+
+
+csv_file[number:number ['key_name', 'key_name']]
+-slices files in certian keys
+
+df[csv_file['column name'] (==, >=, etc) anynumber]
+-filters through data
+
